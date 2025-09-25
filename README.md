@@ -1,8 +1,6 @@
 # Mobile_Robot_Simulation_in_Dynamic_Environment
 
 
----
-
 ## 🔹 Abstract
 Mobile robots play an important role in modern applications such as warehouses, service robotics, and autonomous vehicles, where they must operate in **dynamic environments** that include both **static and moving obstacles**. Traditional navigation approaches often rely on expensive sensors like LiDAR or require complex SLAM algorithms for mapping and localization.  
 
@@ -20,7 +18,6 @@ Simulation results show that the robot can:
 
 This work demonstrates that even without LiDAR or SLAM, a mobile robot can navigate effectively in dynamic environments using lightweight sensor fusion and control techniques. It highlights a **low-cost and practical approach** that could be applied to small-scale robots or educational robotics platforms.  
 
----
 
 ## 🔹 About
 This project demonstrates how a mobile robot can navigate in a **dynamic environment** using **ROS** and **Webots**, relying on low-cost sensors:  
@@ -30,7 +27,6 @@ This project demonstrates how a mobile robot can navigate in a **dynamic environ
 
 Instead of building a global map (no SLAM), the robot uses **dead-reckoning + obstacle detection** to follow a path and dynamically avoid collisions.
 
----
 
 ## 🔹 Objectives
 - Simulate a mobile robot with IMU, encoders, and ultrasonic sensors.  
@@ -39,15 +35,14 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
 - Apply **path planning** to move towards a target.  
 - Navigate safely in an environment with **static and moving obstacles**.  
 
----
 
 ## 🔹 Methodology / Workflow
 1. **Simulation Setup**  
    - Robot modeled in Webots with IMU, encoders, and ultrasonic sensors.  
    - Environment includes walls, static objects, and moving obstacles.
    
-
-![Mobile Robot](dynamic_environment.mp4)
+## 🔹 Demo
+[![Watch the video](demo_thumbnail.png)](dynamic_environment.mp4)
 
 2. **Odometry & IMU Fusion**  
    - Encoders provide wheel rotations → distance traveled.  
@@ -61,7 +56,6 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
    - Local obstacle avoidance using ultrasonic readings.  
    - PID control ensures smooth velocity and direction changes.  
 
----
 
 ## 🔹 Tools & Technologies
 - **ROS 1 (Noetic)**  
@@ -69,14 +63,6 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
 - **C++ / Python** (ROS nodes)  
 - **RViz** (for visualization)  
 
----
 
 ## 🔹 Results
 
-
----
-
-## 🔹 How to Run
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/Mobile_Robot_Simulation_in_Dynamic_Environment.git
