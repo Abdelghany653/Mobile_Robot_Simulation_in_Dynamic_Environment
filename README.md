@@ -58,7 +58,7 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
 
 ##  Tools & Technologies
 - **ROS 1 (Noetic)**  
-- **Webots R2023a**  
+- **Webots**  
 - **C++ / Python** (ROS nodes)  
 - **RViz** (for visualization)  
 
