@@ -40,16 +40,18 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
 1. **Simulation Setup**  
    - Robot modeled in Webots with IMU, encoders, and ultrasonic sensors.  
    - Environment includes walls, static objects, and moving obstacles.
+
    ![Demo](dynamic%20environment.gif)
 
-2. **Odometry & IMU Fusion**  
+
+1. **Odometry & IMU Fusion**  
    - Encoders provide wheel rotations → distance traveled.  
    - IMU gives orientation and helps correct drift.  
 
-3. **Obstacle Detection**  
+2. **Obstacle Detection**  
    - Ultrasonic sensors measure distances to obstacles in real time.  
 
-4. **Path Planning & Control**  
+3. **Path Planning & Control**  
    - Global path to the goal (A*).  
    - Local obstacle avoidance using ultrasonic readings.  
    - PID control ensures smooth velocity and direction changes.  
