@@ -64,4 +64,4 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
 
 
 ##  Results
-![Demo](mobile robot in dynamic environment.gif)
+![Demo](mobile%20robot%20in%20dynamic%20environment.gif)
