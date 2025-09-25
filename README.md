@@ -40,8 +40,7 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
 1. **Simulation Setup**  
    - Robot modeled in Webots with IMU, encoders, and ultrasonic sensors.  
    - Environment includes walls, static objects, and moving obstacles.
-   
-(demo_thumbnail.png)](dynamic_environment.mp4)
+   ![Demo](dynamic%20environment.gif)
 
 2. **Odometry & IMU Fusion**  
    - Encoders provide wheel rotations → distance traveled.  
