@@ -1,7 +1,7 @@
 # Mobile_Robot_Simulation_in_Dynamic_Environment
 
 
-## 🔹 Abstract
+##  Abstract
 Mobile robots play an important role in modern applications such as warehouses, service robotics, and autonomous vehicles, where they must operate in **dynamic environments** that include both **static and moving obstacles**. Traditional navigation approaches often rely on expensive sensors like LiDAR or require complex SLAM algorithms for mapping and localization.  
 
 This project presents a **cost-effective alternative**, where a mobile robot is simulated in **ROS and Webots** using only **low-cost sensors**:  
@@ -19,7 +19,7 @@ Simulation results show that the robot can:
 This work demonstrates that even without LiDAR or SLAM, a mobile robot can navigate effectively in dynamic environments using lightweight sensor fusion and control techniques. It highlights a **low-cost and practical approach** that could be applied to small-scale robots or educational robotics platforms.  
 
 
-## 🔹 About
+##  About
 This project demonstrates how a mobile robot can navigate in a **dynamic environment** using **ROS** and **Webots**, relying on low-cost sensors:  
 - **Encoders** for odometry (distance + velocity estimation).  
 - **IMU** for orientation and stability.  
@@ -28,7 +28,7 @@ This project demonstrates how a mobile robot can navigate in a **dynamic environ
 Instead of building a global map (no SLAM), the robot uses **dead-reckoning + obstacle detection** to follow a path and dynamically avoid collisions.
 
 
-## 🔹 Objectives
+##  Objectives
 - Simulate a mobile robot with IMU, encoders, and ultrasonic sensors.  
 - Estimate position and orientation using **odometry + IMU**.  
 - Use ultrasonic sensors for **obstacle detection and avoidance**.  
@@ -36,12 +36,11 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
 - Navigate safely in an environment with **static and moving obstacles**.  
 
 
-## 🔹 Methodology / Workflow
+##  Methodology / Workflow
 1. **Simulation Setup**  
    - Robot modeled in Webots with IMU, encoders, and ultrasonic sensors.  
    - Environment includes walls, static objects, and moving obstacles.
    
-## 🔹 Demo
 [![Watch the video](demo_thumbnail.png)](dynamic_environment.mp4)
 
 2. **Odometry & IMU Fusion**  
@@ -57,12 +56,12 @@ Instead of building a global map (no SLAM), the robot uses **dead-reckoning + ob
    - PID control ensures smooth velocity and direction changes.  
 
 
-## 🔹 Tools & Technologies
+##  Tools & Technologies
 - **ROS 1 (Noetic)**  
 - **Webots R2023a**  
 - **C++ / Python** (ROS nodes)  
 - **RViz** (for visualization)  
 
 
-## 🔹 Results
+##  Results
 
