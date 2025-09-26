@@ -19,15 +19,6 @@ Simulation results show that the robot can:
 This work demonstrates that even without LiDAR or SLAM, a mobile robot can navigate effectively in dynamic environments using lightweight sensor fusion and control techniques. It highlights a **low-cost and practical approach** that could be applied to small-scale robots or educational robotics platforms.  
 
 
-##  About
-This project demonstrates how a mobile robot can navigate in a **dynamic environment** using **ROS** and **Webots**, relying on low-cost sensors:  
-- **Encoders** for odometry (distance + velocity estimation).  
-- **IMU** for orientation and stability.  
-- **Ultrasonic sensors** for detecting nearby obstacles.  
-
-Instead of building a global map (no SLAM), the robot uses **dead-reckoning + obstacle detection** to follow a path and dynamically avoid collisions.
-
-
 ##  Objectives
 - Simulate a mobile robot with IMU, encoders, and ultrasonic sensors.  
 - Estimate position and orientation using **odometry + IMU**.  
